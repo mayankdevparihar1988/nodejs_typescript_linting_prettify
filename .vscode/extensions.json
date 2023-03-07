@@ -2,6 +2,7 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "hnw.vscode-auto-open-markdown-preview",
-    "docsmsft.docs-markdown"
+    "docsmsft.docs-markdown",
+    "dbaeumer.vscode-eslint"
   ]
 }
