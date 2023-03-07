@@ -9,13 +9,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "format": "npx prettier --write src/",
+    "lint": "eslint src/",
+    "lint:fix": "eslint --fix src/",
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.35.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "prettier": "2.8.4",
-    "typescript": "4.9.5"
+    "typescript": "^4.9.5"
   },
   "keywords": [],
   "author": "",
