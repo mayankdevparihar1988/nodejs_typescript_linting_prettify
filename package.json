@@ -26,6 +26,7 @@
   "author": "",
   "license": "ISC",
   "lint-staged": {
-    "*": "prettier --ignore-unknown --write"
+    "*": "prettier --ignore-unknown --write",
+    "*.ts": "npm run lint:fix"
   }
 }
